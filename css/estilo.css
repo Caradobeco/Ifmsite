@@ -1,0 +1,187 @@
+body {
+	color: rgb(150,20,50);
+}
+.pai{
+	width: 100%;
+
+	display: flex;
+
+	flex-wrap: wrap;
+	justify-content:;
+	align-items: 
+
+}
+
+.filhoamarelo{
+	width: 15%;
+	height: 15vh;
+	background-color: green;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.filhoamarelo img{
+	height: 10vh;
+	width: 25%;
+
+}
+
+
+.filhoverm{
+	width: 85%;
+	height: 15vh;
+	background-color: green;
+	justify-content: flex-end;
+	align-items: flex-start;
+	display: flex;
+}
+.filhoverm input{
+	height: 2vh;
+	width: 8vw;
+
+	margin-top: 20px;
+	margin-right: 20px;
+	background-color: white;
+	color: lightgreen;
+}
+.filhoverm2{
+	width: 70vw;
+	height: 80vh;
+	background-color: white;
+
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.filhoverm2 img{
+	height: 65vh;
+	width: fill;
+
+	margin-top: 10px;
+	margin-left: 20px;
+}
+#voto{
+	color: blue;
+	font-size: 23
+}
+.filholaranja{
+	width: 100%;
+	height: 20vh;
+	background-color: rgb(200,200,200);
+
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+.filholaranja img{
+	height: 15vh;
+	width: fill;
+}
+.filhoazul{
+	width: 30vw;
+	height: 80vh;
+
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column;
+}
+.filhoazul img{
+	margin-top: 10px;
+	height: 15vh;
+	width: 20vw;
+}
+#zap{
+	height: 20vh;
+	width: 20vw;
+
+
+}
+.filhoverde{
+	width: 100%;
+	height: 10vh;
+	background-color: green;
+	align-items: center;
+	justify-content: flex-start;
+	display: flex;
+}
+.filhoverde img{
+	height: 15vh;
+	width: 20%;
+}
+.main{
+	height: 80vh;
+	width: 100vw;
+
+	display: flex;
+	justify-content: flex-start;
+
+	flex-wrap: nowrap;
+}
+
+@media (max-width: 760px) {
+	.filhoamarelo{
+		height: 15vh;
+		width: 100vw;
+	}
+	.filhoamarelo img{
+		height: 10vh;
+		width: 12vw;
+	}
+	.filhoverm{
+		display: none;
+	}
+	.filholaranja{
+		display: none;
+	}
+	.main{
+		height: 80vh;
+		width: 100vw;
+
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+	}
+	.filhoverm2{
+		height: 35vh;
+		width: 100vw;
+	}
+	.filhoverm2 img{
+		width: fill;
+		height: 80%;
+		margin-right: 25px;
+	}
+	#voto{
+		font-size: 22px;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.filhoazul{
+		height: 45vh;
+		width: 100vw;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.filhoazul img{
+		height: 8vh;
+		width: 80%;
+	}
+	#zap{
+		height: fill;
+		width: 80%;
+
+		margin-top: 5px;
+	}
+	.filhoverde{
+		height:3vh;
+		width: 100vw;
+
+		padding: 20px;
+	}
+
+	
+
+}
